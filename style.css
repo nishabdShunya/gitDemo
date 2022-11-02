@@ -3,18 +3,38 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     color: purple;
 }
 
-ul{
+#random {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-li {
-    border: 1px solid purple;
+.random-items {
+    margin: 0;
+    padding: 5px;
     list-style-type: none;
+    background-color: purple;
+    color: aliceblue;
+}
+
+.commands-item {
+    list-style-type: decimal;
+}
+
+span {
+    padding: 0 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    background-color: gray;
+    color: gold;
+}
+
+a {
+    text-decoration: underline gold;
 }

@@ -7,6 +7,14 @@ h2 {
     color: purple;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
 li {
+    border: 1px solid purple;
     list-style-type: none;
 }
